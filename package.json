@@ -8,7 +8,7 @@
     "test": "node index.js"
   },
   "keywords": [
-    "CLI", "utility"
+    "CLI", "utility", "nodejs"
   ],
   "author": "VictorPro007 (https://github.com/VictorPro007)",
   "license": "MIT",
