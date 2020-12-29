@@ -1,5 +1,5 @@
 {
-  "name": "fetchjs",
+  "name": "snakejs",
   "version": "1.0.0",
   "description": "This app gives you information about your computer hardware and software",
   "main": "index.js",
