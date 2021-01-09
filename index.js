@@ -26,4 +26,5 @@ whitespaceBreak: true}, function (err, data) {
     }
     console.log(data);
 })));
+// OS Information 
 console.log(chalk.yellow.bold(`\n\n\n\nKernel/Core: ${ os.type() }\n\nOS version: ${ os.version() }\n\nCPU Arch: ${ os.arch()}\n\nPlatform: ${ os.platform() }\n\nHomedir: ${ os.homedir() }\n\nTotal memory: ${ os.totalmem } bytes\n\nHostname: ${ os.hostname }\n`));
