@@ -4,13 +4,13 @@ const chalk = require('chalk');
 var osType = '';
 switch (os.type()) {
     case 'Linux': 
-        osType = 'Linux';
+        osType = '\nLinux';
     break;
     case 'Darwin':
-        osType = 'MacOS';
+        osType = '\nMacOS';
     break;
     case 'Windows_NT':
-        osType = 'Windows';
+        osType = '\nWindows';
     break;
 }
 console.log(chalk.greenBright.bold(figlet.textSync(osType, 
