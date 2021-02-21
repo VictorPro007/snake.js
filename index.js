@@ -2,15 +2,16 @@ const os = require('os');
 const figlet = require('figlet');
 const chalk = require('chalk');
 var osType = '';
+console.log('\n');
 switch (os.type()) {
     case 'Linux': 
-        osType = '\nLinux';
+        osType = 'Linux';
     break;
     case 'Darwin':
-        osType = '\nMacOS';
+        osType = 'MacOS';
     break;
     case 'Windows_NT':
-        osType = '\nWindows';
+        osType = 'Windows';
     break;
 }
 console.log(chalk.greenBright.bold(figlet.textSync(osType, 
