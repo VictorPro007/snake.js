@@ -14,6 +14,7 @@ switch (os.type()) {
         osType = 'Windows';
     break;
 }
+// OS logotype
 console.log(chalk.greenBright.bold(figlet.textSync(osType, 
 {font: 'Red Phoenix',
 horizontalLayout: 'default',
