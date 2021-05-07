@@ -5,8 +5,7 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "preinstall": "npm i chalk && npm i figlet"
+    "test": "node index.js"
   },
   "keywords": [
     "CLI", "utility", "nodejs"
