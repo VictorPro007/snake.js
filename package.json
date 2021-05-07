@@ -12,7 +12,7 @@
   ],
   "author": "VictorPro007 (https://github.com/VictorPro007)",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^4.1.0",
     "figlet": "^1.5.0"
   }
